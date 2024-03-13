@@ -1,4 +1,9 @@
-       // Variable1 = operand1A + operand1B     // result will be one of combinations
+      // This js file allows the user to interact and ask them to open the vault. 
+      
+      
+      
+      
+      // Variable1 = operand1A + operand1B     // result will be one of combinations
         // Variable2 = operand2A - operand2B     // result will be one of combinations
         // Variable3 = operand3A * operand3B     // result will be one of combinations
         let code1 = 5 * 2;      //10
@@ -18,6 +23,7 @@ if(userInput === 'Y' || userInput === 'y') {
     alert(`The secret combintation is ${code1}-${code2}-${code3} `); // this will tell the user the combinations from the variables we provided.
     break;
 }       else if (userInput === 'N' || userInput === 'n') {
+    alert('YOU HAVE TO OPEN IT')
 } else {
     alert('invalid, try again')
 }
